@@ -152,7 +152,7 @@ img::-moz-selection {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #2eb8b8;
+    color: #000;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
     color: #2eb8b8;
@@ -183,8 +183,9 @@ header.masthead hr {
   margin-bottom: 30px;
 }
 
-header.masthead h1 {
+header.masthead h2 {
   font-size: 2rem;
+  text-shadow: 2px 2px 4px #404040;
 }
 
 header.masthead p {
@@ -235,7 +236,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(20, 82, 82, 0.9);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -305,9 +306,9 @@ header.masthead p {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: rgb(20, 82, 82) !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(20, 82, 82, 0.5) !important;
 }
