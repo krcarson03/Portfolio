@@ -236,7 +236,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(20, 82, 82, 0.9);
+  background: rgba(20, 82, 82, 0.9); /* Categories hover color */
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
